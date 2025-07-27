@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="/public/icons/view-dashboard.svg" alt="Dashboard">
+        <h1>Dashboard</h1>
+      </div>
+
+      <nav class="nav-main">
+        <ul>
+          <li class="active">
+            <img src="/public/icons/home.svg" alt="Home">
+            <span>Home</span>
+          </li>
+          <li>
+            <img src="/public/icons/card-account-details-outline.svg" alt="Profile">
+            <span>Profile</span>
+          </li>
+          <li>
+            <img src="/public/icons/message-reply.svg" alt="Messages">
+            <span>Messages</span>
+          </li>
+          <li>
+            <img src="/public/icons/clock-time-three.svg" alt="History">
+            <span>History</span>
+          </li>
+          <li>
+            <img src="/public/icons/note-multiple.svg" alt="Tasks">
+            <span>Tasks</span>
+          </li>
+          <li>
+            <img src="/public/icons/account-group.svg" alt="Communities">
+            <span>Communities</span>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="nav-secondary">
+        <ul>
+          <li>
+            <img src="/public/icons/cog.svg" alt="Settings">
+            <span>Settings</span>
+          </li>
+          <li>
+            <img src="/public/icons/help-box.svg" alt="Support">
+            <span>Support</span>
+          </li>
+          <li>
+            <img src="/public/icons/shield-check.svg" alt="Privacy">
+            <span>Privacy</span>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <header class="header">
+      <div class="search-bar">
+        <img src="/public/icons/magnify.svg" alt="Search">
+        <input type="text" placeholder="">
+      </div>
+
+      <div class="user-actions">
+        <img src="/public/icons/bell-ring-outline.svg" alt="Notifications" class="notification-icon">
+        <div class="user-avatar">
+          <img src="/public/avatars/morgan.png" alt="User Avatar">
+        </div>
+        <span class="username">Morgan Oakley</span>
+      </div>
+    </header>
+
+    <div class="user-info">
+      <div class="user-greeting">
+        <div class="user-avatar-large">
+          <img src="/public/avatars/morgan.png" alt="User Avatar">
+        </div>
+        <div class="greeting-text">
+          <p>Hi there,</p>
+          <h2>Morgan Oakley (@morgan)</h2>
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <button class="btn-primary">New</button>
+        <button class="btn-primary">Upload</button>
+        <button class="btn-primary">Share</button>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <div class="projects-section">
+        <h3>Your Projects</h3>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4>Super Cool Project</h4>
+            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Less Cool Project</h4>
+            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Impossible App</h4>
+            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Easy Peasy App</h4>
+            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Ad Blocker</h4>
+            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Money Maker</h4>
+            <p>Praesent convallis libero quis congue elementum. Nunc eu faucibus sapien. Ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+            <div class="card-actions">
+              <img src="/public/icons/star-plus-outline.svg" alt="Star">
+              <img src="/public/icons/eye-plus-outline.svg" alt="Watch">
+              <img src="/public/icons/source-fork.svg" alt="Fork">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-content">
+        <div class="announcements-section">
+          <h3>Announcements</h3>
+          <div class="announcements-card">
+            <div class="announcement">
+              <h4>Site Maintenance</h4>
+              <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+            </div>
+            <div class="announcement">
+              <h4>Community Share Day</h4>
+              <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+            </div>
+            <div class="announcement">
+              <h4>Updated Privacy Policy</h4>
+              <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="trending-section">
+          <h3>Trending</h3>
+          <div class="trending-card">
+            <div class="trending-item">
+              <div class="trending-avatar">
+                <img src="/public/avatars/tegan.png" alt="@tegan">
+              </div>
+              <div class="trending-info">
+                <p class="trending-username">@tegan</p>
+                <p class="trending-project">World Peace Builder</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-avatar">
+                <img src="/public/avatars/morgan.png" alt="@morgan">
+              </div>
+              <div class="trending-info">
+                <p class="trending-username">@morgan</p>
+                <p class="trending-project">Super Cool Project</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-avatar">
+                <img src="/public/avatars/kendall.png" alt="@kendall">
+              </div>
+              <div class="trending-info">
+                <p class="trending-username">@kendall</p>
+                <p class="trending-project">Life Changing App</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-avatar">
+                <img src="/public/avatars/alex.png" alt="@alex">
+              </div>
+              <div class="trending-info">
+                <p class="trending-username">@alex</p>
+                <p class="trending-project">No Traffic Maker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
